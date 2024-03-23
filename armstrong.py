@@ -3,7 +3,7 @@
 n=input("Enter the number to check:").strip()
 sum=0
 for i in n:
-    sum+=(int(i))**3
+    sum+=(int(i))**len(n)
 if sum==int(n):
     print("Yes")
 else:
